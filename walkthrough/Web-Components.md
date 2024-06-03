@@ -18,6 +18,7 @@ Reusing markup structures repeatedly is simplified by the HTML [templates elemen
 
 ### Creating autonomous elements: 
 It defines a new class called MyElement that extends `HTMLElement,` which means it inherits all the properties and methods of an `HTMLElement.` `constructor` is the constructor method for the class. It gets called when a new class instance is created. `super` calls the parent class's constructor (HTMLElement).
+
 ```js
 class MyElement extends HTMLElement {
     constructor() {
